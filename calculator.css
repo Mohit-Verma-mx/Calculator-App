@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+  }
+  body
+{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poppins;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.container{
+    text-align: center;
+    margin-top:23px;
+    margin-bottom: 40px;
+    background-color:#ecf0f3;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    border-radius: 21px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    outline: none;
+    font-size:34px;
+    text-align: right;
+    padding-right: 12px;
+    height: 65px;
+    width: 456px;
+}
+
+button{
+    border-radius: 50%;
+    font-size: 30px;
+    background: #deeef6;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px  white;
+    width: 95px;
+    outline: none;
+    height: 70px;
+    margin: 6px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.calculator{ 
+    background: #ecf0f3;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px  white;
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+    
+}
+
+h1{
+    font-size: 25px;
+    font-family: poppins;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #1DA1F2;
+}
+
+h4{
+  text-align: center;
+  padding-bottom: 50px;
+  color: #ec9966;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+}
+h4:hover{
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
